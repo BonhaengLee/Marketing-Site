@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  *  estate controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { createCoreController } = require("@strapi/strapi").factories;
 
-module.exports = createCoreController('api::estate.estate');
+module.exports = createCoreController("api::estate.estate");
